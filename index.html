@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Layout</title>
 </head>
 <body>
@@ -103,5 +103,61 @@
           <p class="child-flex">The paragraph is the child, or flex item, while the div is the parent, or flex container.</p>
       </div>
   </section>
+
+  <form action="#" method="post">
+      <ul>
+          <li>
+              <label for="yourName">Enter Name:</label>
+              <input type="text" id="yourName">
+          </li>
+
+          <li>
+              <label for="yourLastName">Enter Last Name: </label>
+              <input type="text" id="yourLastName">
+          </li>
+          <li>
+              <label for="number">Phone Number:</label>
+              <input type="text" id="number">
+          </li>
+          <li>
+              <label for="mail">Email: </label>
+
+              <input type="email" id="mail" name="mail">
+          </li>
+
+          <li>
+              <label for="theDate">Pick a date</label>
+              <input type="date" id="theDate">
+          </li>
+
+          <li>
+              <label for="quantity">How many do you want:</label>
+              <input type="number" id="quantity" min="1" max="10">
+          </li>
+
+          <li>
+              <label>
+                  <input type="radio" name="myRadio" value="choice1" checked> Choice 1
+                  <input type="radio" name="myRadio" value="choice2" checked> choice 2
+              </label>
+          </li>
+          <!--<li>
+              <label>
+                  <input id="subscribe" type="checkbox" value="subscribe">Add me to your email list
+              </label>
+          </li>-->
+          <li>
+              <label for="comments">Special requests:</label>
+              <textarea id="comments"></textarea>
+          </li>
+
+          <li class="button">
+              <button class="btn_button" type="submit">Sent Your Message !</button>
+          </li>
+      </ul>
+  </form>
+
+<!-- script js files -->
+  <script  src="js/script.js"></script>
 </body>
 </html>
